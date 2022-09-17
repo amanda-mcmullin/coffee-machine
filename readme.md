@@ -1,5 +1,5 @@
 ### Coffee Machine Program Requirements
-1. Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
+1. Prompt user by asking “What would you like? (espresso/latte/cappuccino):"
     - a. Check the user’s input to decide what to do next.
     - b. The prompt should show every time action has completed, e.g. once the drink is dispensed. The prompt should show again to serve the next customer.
 
@@ -24,7 +24,7 @@
     - c. Calculate the monetary value of the coins inserted. E.g. 1 quarter, 2 dimes, 1 nickel, 2 pennies = 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
 
 6. Check transaction successful?
-    - a. Check that the user has inserted enough money to purchase the drink they selected. E.g Latte cost $2.50, but they only inserted $0.52 then after counting the coins the program should say “Sorry that's not enough money. Money refunded.”.
+    - a. Check that the user has inserted enough money to purchase the drink they selected. E.g Latte cost $2.50, but they only inserted $0.52 then after counting the coins the program should say “Sorry that's not enough money. Money refunded.".
     - b. But if the user has inserted enough money, then the cost of the drink gets added to the machine as the profit and this will be reflected the next time “report” is triggered. E.g.
         Water: 100ml
         Milk: 50ml
