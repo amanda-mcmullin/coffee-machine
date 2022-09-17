@@ -32,7 +32,6 @@ resources = {
 
 profit = 0
 
-
 # report of available resources and profit
 def report ():
     print(f"Water: {resources['water']}ml")
@@ -51,10 +50,20 @@ def is_resource_sufficient(order_ingredients):
             return False
     return True
 
-# process coins
+
+# process coins / returns total calculated from inserted coins
+def process_coins():
+    print("Please insert coins.")
+    total = int(input("how many quarters: ")) * 0.25
+    total += int(input("how many dimes?: ")) * 0.1
+    total += int(input("how many nickels?: ")) * 0.05
+    total += int(input("how many pennies?: ")) * 0.01
+    return total
 
 
-# successful transaction
+# successful transaction / returns True if enough coins were entered to cover cost of selected drink and returns False if amount is insufficient
 
-# make coffee
+
+
+# make coffee / should only run if is_resource_sufficient and is_transaction_successful BOTH return True
 
